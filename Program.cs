@@ -1,6 +1,6 @@
 ﻿internal class Program
 {
-    public static void main(String[] args) 
+    public static void Main(String[] args) 
     {
        
       
@@ -11,7 +11,7 @@
     double x;
     Boolean exit = false;
         while (!exit){
-            ce = (double.Parse(Console.ReadLine()));
+            ce = (int.Parse(Console.ReadLine()));
             i++;
             if (ce == j){
                 i--;
